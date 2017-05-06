@@ -1,0 +1,23 @@
+{
+  "name": "anorz/package_name",
+  "type": "library",
+  "description": "this is a php message queue libs",
+  "keywords": ["message queue", "MQ"],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "require":{
+
+  },
+  "suggest": {
+    "ext-amqp": "Allows the message queue protocol"
+  },
+  "authors": [
+    {
+      "name": "anorz",
+      "email": "google@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {"MessageQueue\\": "src/"}
+  }
+}
