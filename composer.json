@@ -1,5 +1,5 @@
 {
-  "name": "anorz/package_name",
+  "name": "anorz/message_queue",
   "type": "library",
   "description": "this is a php message queue libs",
   "keywords": ["message queue", "MQ"],
